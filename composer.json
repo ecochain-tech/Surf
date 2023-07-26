@@ -11,7 +11,7 @@
         "padraic/phar-updater": "1.0.5",
         "phar-io/version": "^2.0",
         "symfony/config": "^5.0",
-        "symfony/console": "^5.0",
+        "symfony/console": "^4.2",
         "symfony/dependency-injection": "^5.0",
         "symfony/finder": "^5.1",
         "symfony/http-kernel": "^5.0",
