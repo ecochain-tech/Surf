@@ -7,7 +7,7 @@
         "guzzlehttp/guzzle": "^6.0 || ^7.0",
         "monolog/monolog": "^1.17",
         "myclabs/php-enum": "^1.8",
-        "neos/utility-files": "^3.0",
+        "neos/utility-files": "^3.0 || ^6.0",
         "padraic/phar-updater": "1.0.5",
         "phar-io/version": "^3.1",
         "symfony/config": "^5.0",
