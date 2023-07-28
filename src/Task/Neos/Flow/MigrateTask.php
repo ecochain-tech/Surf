@@ -35,7 +35,7 @@ class MigrateTask extends Task implements ShellCommandServiceAwareInterface
         $options = $this->configureOptions($options);
 
         $targetPath = $deployment->getApplicationReleasePath($application);
-        $this->shell->executeOrSimulate($application->buildCommand($targetPath, 'doctrine:migrate', [], $options['phpBinaryPathAndFilename']), $node, $deployment);
+        $this->shell->executeOrSimulate($application->buildCommand($targetPath, 'flow.doctrine:migrate', [], $options['phpBinaryPathAndFilename']), $node, $deployment);
     }
 
     /**
