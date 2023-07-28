@@ -171,7 +171,7 @@ class ShellCommandService
      */
     public function executeProcess($deployment, $command, $logOutput, $logPrefix)
     {
-        $process = new Process($command);
+        $process = new Process([$command]);
         $process->setTimeout(null);
         $callback = null;
         if ($logOutput) {
