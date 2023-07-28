@@ -8,7 +8,7 @@ namespace TYPO3\Surf\Task\Php;
  * file that was distributed with this source code.
  */
 
-use TYPO3\Flow\Utility\Files;
+use Neos\Utility\Files;
 use TYPO3\Surf\Domain\Filesystem\Filesystem;
 use TYPO3\Surf\Domain\Filesystem\FilesystemInterface;
 use TYPO3\Surf\Domain\Generator\RandomBytesGenerator;
