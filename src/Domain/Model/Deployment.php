@@ -11,7 +11,7 @@ namespace TYPO3\Surf\Domain\Model;
 
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerInterface;
-use TYPO3\Flow\Utility\Files;
+use Neos\Utility\Files;
 use TYPO3\Surf\Exception as SurfException;
 
 /**
