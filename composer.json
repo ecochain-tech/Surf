@@ -4,7 +4,7 @@
     "license": "GPL-3.0-or-later",
     "require": {
         "php": "^5.6 || >=7.0",
-        "monolog/monolog": "^1.17",
+        "monolog/monolog": "^1.17 || ^2.0",
         "neos/utility-files": "^3.0 || ^6.0 || ^7.0 || ^8.0",
         "padraic/phar-updater": "^1.0",
         "psr/log": "^1.0 || ^2.0 || ^3.0",
