@@ -5,7 +5,7 @@
     "require": {
         "php": "^7.4 || ^8.0",
         "guzzlehttp/guzzle": "^6.0 || ^7.0",
-        "monolog/monolog": "^1.17",
+        "monolog/monolog": "^1.17 || ^2.0",
         "myclabs/php-enum": "^1.8",
         "neos/utility-files": "^3.0 || ^8.0",
         "padraic/phar-updater": "1.0.5",
