@@ -50,7 +50,7 @@ class ConsoleHandler extends AbstractProcessingHandler
     /**
      * {@inheritdoc}
      */
-    public function isHandling(array $record)
+    public function isHandling(array $record): bool
     {
         return $this->updateLevel() && parent::isHandling($record);
     }
